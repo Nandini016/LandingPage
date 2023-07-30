@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet"
+    />
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img src="https://png.pngtree.com/png-clipart/20200710/original/pngtree-books-logo-png-image_4135439.jpg" alt="logo" width="60"
+                 id="header-image"
+                 />
+                 <span class="the-product">Read-a-Thon</span>
+                 </div>
+                 <ul class="nav-links">
+                   <li><a href="#features" class="nav-link">Features</a></li>
+                   <li><a href="#audio" class="nav-link">Free Audio Books</a></li>
+                   <li><a href="#For_Sale" class="nav-link">For Sale</a></li>
+                 </ul>
+        </nav>
+    </header>
+
+    <section id="email-section">
+        <h2>Beautifully Written Masterpeices</h2>
+        <form action="https://www.freecodecamp.com/email-submit">
+            <input
+            id="email"
+            type="email" required placeholder="Enter your email address"
+            name="email"
+            />
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+    </section>
+
+    <section id="features">
+        <div class="feature">
+            <i class="ri-file-paper-fill ri-4x icon"></i>
+            <div>
+                <h2>Premium Material</h2>
+                <p>
+                    Our Books use the best paper which is sourced to increase the longevity of your purchase.
+                </p>
+            </div>
+        </div>
+        <div class="feature"> <i class="ri-truck-fill ri-4x icon"></i>
+            <div>
+                <h2>1 Day Shipping</h2>
+                <p>
+                    We make sure you receive your classic book as soon as possible so tha t you can start reading immedialtely.We also provide free return if you are satisfied.
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-book-open-line ri-4x icon"></i>
+            <div>
+                <h2>Quality Books Only</h2>
+                <p>
+                    We make sure to only provide awesome classic books.We guarantee that the book you buy is one of the top classic books on the market.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="audio">
+    <iframe 
+
+    height="400"
+    id="video"
+     src="https://www.youtube.com/embed/ZRPaxEK70Mc" 
+     title="YouTube video player" 
+     frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen></iframe>
+    </section>
+
+    <section id="for_sale">
+        <h2>For Sale</h2>
+        <div class="product-cards">
+            <div class="card">
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                    <div class="author">Collen Hoover</div>
+
+                    <h1 class="header">It Ends With Us</h1>
+
+                    <p class="content">
+                        Colleen Hoover is an American author who primarily writes novels in the romance and young adult fiction genres.
+                        She is the #1 New York Times bestselling author of twenty four novels and novellas.
+                    </p>
+
+                    <div class="flex">
+                        <p class="main-price">$16.12</p>
+                        <p class="old-price">$19.29</p>
+                    </div>
+
+                    <button class="add">
+                        <p style="margin-left:5px">Add To Cart</p>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image product2"></div>
+                <div class="inner-card">
+                    <div class="author">Collen Hoover</div>
+
+                    <h1 class="header">It Starts With Us</h1>
+                    
+                    <p class="content">
+                        Colleen Hoover is an American author who primarily writes novels in the romance and young adult fiction genres.
+                        She is the #1 New York Times bestselling author of twenty four novels and novellas.
+                    </p>
+
+                    <div class="flex">
+                        <p class="main-price">$17.12</p>
+                        <p class="old-price">$20.29</p>
+                    </div>
+
+                    <button class="add">
+                        <p style="margin-left:5px">Add To Cart</p>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image product3"></div>
+                <div class="inner-card">
+                    <div class="author">Héctor García</div>
+
+                    <h1 class="header">Ikigai</h1>
+                    
+                    <p class="content">
+                        Héctor García is a citizen of Japan, where he has lived for over a decade, and of Spain, where he was born.
+                        He is the author of several books about Japanese culture, including two worldwide bestsellers, A Geek in Japan and Ikigai.
+                    </p>
+
+                    <div class="flex">
+                        <p class="main-price">$15.12</p>
+                        <p class="old-price">$17.29</p>
+                    </div>
+
+                    <button class="add">
+                        <p style="margin-left:5px">Add To Cart</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
